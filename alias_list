@@ -1,0 +1,32 @@
+#!/bin/bash
+
+
+## aliasを登録するファイル
+#
+# .bashrcから読み込む
+#
+
+## docker関連のコマンド
+
+# docker hubにログイン
+alias dlogin="docker login"
+
+# イメージをプッシュ
+alias dpush="docker push"
+
+# dockerを起動
+alias dstart="service docker start"
+
+# docker-composeでイメージをビルド
+alias dcbuild="docker-compose build"
+
+# docker-composeでコンテナを起動(バックグラウンド起動は普通にオプションつけましょう)
+alias dcup="docker-compose up"
+
+# docker-composeでコンテナ起動
+alias dcstart="docker-compose start"
+
+
+
+
+
