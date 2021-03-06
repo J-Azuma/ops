@@ -29,6 +29,12 @@ alias dcup="docker-compose up"
 # docker-composeでコンテナ起動
 alias dcstart="docker-compose start"
 
+# docker-compose でコンテナ停止
+alias dcstop="docker-compose stop"
+
+# docker-composeでコンテナ破棄
+alias dcdown="docker-compose down"
+
 
 
 
